@@ -1,0 +1,201 @@
+body{
+  background: url('pink.png');
+  background-size: cover;/*deixa a imagem grande e unica*/
+}
+*{ margin: 0; padding: 0; border:0;font-family: arial, sans-serif; }
+a, li{ list-style: none; text-decoration: none; font-size: 15px;} 
+* {
+margin: 0;
+padding: 0;
+}
+.header {
+  width: 100%;
+  
+}
+.menu {
+  background-color: rgb(251, 47, 131);
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  display: block;
+  color: #FFFFFF;
+  padding: 30px 10px;
+}
+.main {
+  padding: 50px 0;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  background-color: #eff0f1;
+  height: 1000px;
+}
+.content h1 {
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: rgb(251, 47, 131);
+  text-align: center;
+  padding: 50px 0; 
+  margin-top: 30px;
+}
+
+body {
+  padding-top: 80px; /* Altura do menu */
+}
+.header {
+  position: fixed;
+  top: 0;
+  /*position: absolute;*/
+  z-index: 1;
+}
+
+.header{
+  -webkit-box-shadow: 10px 10px 6px -6px #777;
+     -moz-box-shadow: 10px 10px 6px -6px #777;
+          box-shadow: 10px 10px 6px -6px #777;
+
+}
+
+.footer{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+
+}
+/*logo*/
+
+
+/*usuario*/
+.nome {
+        width: 150px;
+        position: absolute;
+        right: 50px;
+        margin-top: 12px;
+        font-size: 15px;
+        color:white;
+    }
+
+/*testeeesss*/
+.card {
+display: grid;
+grid-template-columns: 300px;
+grid-template-rows: 210px 210px 80px;
+grid-template-areas: "image" "text" "stats";
+border-radius: 18px;
+background: white;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+font-family: roboto;
+text-align: center;
+position: relative; 
+margin: 0 auto; 
+top: 20px;
+}
+.card-image {
+grid-area: image;
+}
+.card-text {
+grid-area: text;
+}
+.card-stats {
+grid-area: stats;
+position: relative; margin: 0 auto;
+}
+.card-image {
+grid-area: image;
+background: url('gg.png');
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+background-size: cover;
+}
+.card-text {
+grid-area: text;
+margin: 25px;
+}
+.card-text .date {
+color: rgb(255, 7, 110);
+font-size:13px;
+}
+.card-text p {
+color: grey;
+font-size:15px;
+font-weight: 300;
+}
+.card-text h2 {
+margin-top:0px;
+font-size:28px;
+}
+.card-stats {
+grid-area: stats; 
+display: grid;
+grid-template-columns: 6fr 1fr 1fr;
+grid-template-rows: 1fr;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+background: rgb(255, 7, 110);
+}
+.card-stats .stat {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+padding:10px;
+}
+.card:hover {
+transform: scale(1.05);
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+transition: 0.5s ease;
+cursor: pointer;
+margin:30px;
+width: 300px;
+}
+
+/*@media screen and (min-width: 60em) {
+  .card {
+      max-width: calc(25% - 1em);
+  }
+}
+*/ 
+
+.logo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  box-sizing: inherit;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  position: absolute;
+  left: 65px;
+  margin-top: 25px;
+  font-size: 20px;
+  color:white;
+  font-weight: bolder;
+
+
+}
+.logo a{
+  position: absolute;
+  left: 50px;
+  margin-top: 10px;
+  height: 50px; width: auto; 
+  box-sizing: inherit; 
+  padding: 10px;
+  width: 150px;
+        
+
+}  
+
+.card{
+  position: relative; margin: 0 auto; top: 20px;
+}
+
+.nome{
+  box-sizing: inherit; padding: 10px; margin-top: 20px;
+}
